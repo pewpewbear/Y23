@@ -1,0 +1,117 @@
+.fixed-icon-area {
+  position: fixed;
+  bottom: 1vw;
+  right: 1vw;
+  z-index: 9999;
+}
+
+.panel-title1 {
+  background-color: #fff;
+  padding: 15px;
+  border-bottom: 1px dashed gray;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.panel-title2 {
+  background-color: #fff;
+  padding: 15px;
+  border-bottom: 1px dashed gray;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.panel-title3 {
+  background-color: #fff;
+  padding: 15px;
+  border-bottom: 1px dashed gray;
+  font-size: 18px;
+  font-weight: bold;
+}
+.panel-title4 {
+  background-color: #fff;
+  padding: 15px;
+  border-bottom: 1px dashed gray;
+  font-size: 18px;
+  font-weight: bold;
+}
+.panel-title5 {
+  background-color: #fff;
+  padding: 15px;
+  border-bottom: 1px dashed gray;
+  font-size: 18px;
+  font-weight: bold;
+}
+.panel-title6 {
+  background-color: #fff;
+  padding: 15px;
+  border-bottom: 1px dashed gray;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.align-title {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: rgba(234, 197, 93, 0.8);
+}
+
+.panel-title:hover {
+  opacity: 0.8; /* 調整為您想要的透明度值 */
+}
+
+.nav-item {
+  margin-right: -50px;
+}
+.words {
+  padding-left: 805px;
+  padding-top: 650px;
+  line-height: 2;
+}
+.words-mobile {
+  font-size: 13px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 160px;
+}
+.article-image {
+  width: 237px !important;
+}
+
+/* 下拉式選單 */
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu {
+  margin-top: -0.1rem;
+  font-size: 1.05rem
+}
+
+.dropdown-item:active {
+  background-color: #62aa9c; /* Replace with your desired color */
+}
+
+/* 關於理財周刊 計數效果 */
+#counter {
+  font-weight: bold;
+  color: #ee1818;
+}
+
+/* 右邊廣告欄位 */
+.fixed-icon-area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.advertisement {
+  margin-bottom: 10px; /* 你可以調整這個值來設置圖標之間的距離 */
+}
+
+/* window螢幕 */
+#dynamicDiv {
+  display: none;
+}
